@@ -3,6 +3,8 @@ import { Endpoint } from "@ndn/endpoint";
 import { AltUri, Interest, Name } from "@ndn/packet";
 import { delay } from "@ndn/util";
 
+
+
 async function ping(evt) {
   evt.preventDefault();
   // Disable the submit button during function execution.
